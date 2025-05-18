@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Large model files
+*.pt
+*.weights
+*.h5
+
+# Dataset and results
+obstacle_dataset/
+object_detections/
+emergency_detections/
+stream_captures/
+obstacle_detection_results/
+drone_tracking_*/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.pt
+stream_captures/
+object_detections/
+obstacle_detection_results/
+drone_tracking_*/
+
+# Large files and datasets
+models/*.caffemodel
+models/*.weights
+models/*.h5
+models/*.pth
+models/*.onnx
+coco/
+*.cache
+*.bin
+*.model
+*.pb
+*.tflite
+*.mlmodel
+*.mlpackage 
